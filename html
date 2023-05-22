@@ -17,11 +17,14 @@
             <label for="email">Enter Your Email: <input id="Email" type="email" name="email" required/></label>
             <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" minlength="8" name="password" required/></label>
         </fieldset>
+
         <fieldset>
             <label for="personal-account"><input class="inline" id="personal-account" type="radio" name="account-type"/> Personal Account</label>
             <label for="business-account"><input class="inline" id="business-account" type="radio" name="account-type"/> Business Account</label>
             <label for="terms-and-conditions"><input class="inline" id="terms-and-conditions" type="checkbox" name="terms" required> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
         </fieldset>
+
+    
         <fieldset>
             <label for="profile-picture">Upload a Profile Picture:<input id="profile-picture" type="file" name="file" /></label>
             <label for="age"> <input id="age" type="number" name="age" min="13" max="120"> Input your age (years):</label>
@@ -35,6 +38,7 @@
             </select>
             </label>
         </fieldset>
+
         <label for="bio">Provide a bio: <textarea name="bio" placeholder="I like coding on the beach..." rows="3" cols="30" id="bio"></textarea></label>
         <input type="submit" value="Submit">
     </form>
